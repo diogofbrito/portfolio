@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-	baseURL: '/portfolio/public/data',
+	baseURL: '/portfolio/data',
 });
 
 export async function getProj() {
