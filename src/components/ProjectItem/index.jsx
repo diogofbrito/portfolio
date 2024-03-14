@@ -12,7 +12,7 @@ export function ProjectItem({ project }) {
 						<source src={videoUrl} type='video/mp4' />
 					</video>
 				) : (
-					<img src={imageUrl} alt={title} />
+					<img src={imageUrl} alt={title} loading='lazy' />
 				)}
 			</div>
 			<div className='item__id'>
