@@ -1,0 +1,90 @@
+:root {
+	/*! main colors */
+	--black: #131313;
+	--hover: #0000ff;
+	--general-background: #f1f1f1;
+	--secundary-background: #dedede;
+
+	/*! tag colors */
+	--web: #7ceeff;
+	--editorial: #d8baff;
+	--identity: #ffeb3a;
+	--posters: #ff99e2;
+	--video: #ff590c;
+	--exhibition: #ff9999;
+	--direction: #6ddd5e;	
+}
+
+/* reset basics */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+/* 	 border: 1px solid green; 
+ */
+}
+
+html {
+	font-size: 16px;
+	line-height: normal;
+	scroll-behavior: smooth !important;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 700;
+	font-family: 'Whyte-Light';
+	line-height: 1;
+		background-color: var(--general-background);
+	color: var(--black);
+}
+
+
+
+span {
+	font-weight: 400;
+	font-size: 0.75em;
+}
+
+.container {
+	margin: 6.5rem 30px 30px 
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--black);
+}
+
+a:hover,
+button:hover {
+	background-color: var(--black);
+	color: var(--general-background)
+}
+
+ a.active,  button.active {
+background-color: var(--black);
+	color: var(--general-background)
+}
+.navbar__item .item__flex:first-child.active {
+    background-color: inherit; 
+}
+
+img {
+	display: block;
+}
+
+button {
+	background-color: transparent;
+	color: inherit;
+	border: none;
+	font: inherit;
+	outline: inherit;
+}
+
+

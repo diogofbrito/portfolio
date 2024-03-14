@@ -1,0 +1,50 @@
+/* Estilos para a página Index */
+.index {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.956);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-bottom-right-radius: 34px;
+	border-bottom-left-radius: 34px;
+	z-index: -9;
+	font-family: 'DD-Regular';
+	font-size: 2.5rem
+}
+
+.index__grid {
+	margin-top: 6.5rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	gap: .5rem;
+}
+
+.list__item {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	gap: 1rem;
+	align-items: baseline;
+
+}
+
+.list__title{
+	letter-spacing: 1px;
+}
+
+.list__year {
+	width: 80px;
+		font-weight: 500;
+
+}
+
+.list__category {
+	font-size: 1.7rem;
+	display: flex;
+	gap: 10px;
+		font-weight: 500;
+
+}
