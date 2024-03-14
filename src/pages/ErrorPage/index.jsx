@@ -7,7 +7,7 @@ export function ErrorPage() {
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
-			window.location.href = '/';
+			window.location.href = '/portfolio/';
 		}, 5000);
 
 		return () => clearTimeout(timer);

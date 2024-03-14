@@ -10,7 +10,7 @@ import { Contacts } from './pages/Contactos/index';
 
 export const router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/portfolio/',
 		element: <App />,
 		children: [
 			{
@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: '/projects',
+				path: '/portfolio/projects',
 				element: <Projects />,
 				children: [
 					{
@@ -32,11 +32,11 @@ export const router = createBrowserRouter([
 				],
 			},
 			{
-				path: '/about',
+				path: '/portfolio/about',
 				element: <About />,
 			},
 			{
-				path: '/contacts',
+				path: '/portfolio/contacts',
 				element: <Contacts />,
 			},
 			{

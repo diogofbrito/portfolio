@@ -7,7 +7,7 @@ import { Index } from '../../pages/Projetos/Index/index';
 
 export function Header() {
 	const location = useLocation();
-	const isProjectsPage = location.pathname.startsWith('/projects');
+	const isProjectsPage = location.pathname.startsWith('/portfolio/projects');
 	const [isIndexOpen, setIsIndexOpen] = useState(false);
 
 	const toggleIndex = () => {
@@ -17,16 +17,16 @@ export function Header() {
 	return (
 		<div className='navbar'>
 			<div className='navbar__item'>
-				<NavLink className='item__flex' to='/'>
+				<NavLink className='item__flex' to='/portfolio/'>
 					Diogo Brito
 				</NavLink>
-				<NavLink className='item__flex' to='/projects'>
+				<NavLink className='item__flex' to='/portfolio/projects'>
 					Projects
 				</NavLink>
-				<NavLink className='item__flex' to='/about'>
+				<NavLink className='item__flex' to='/portfolio/about'>
 					About
 				</NavLink>
-				<NavLink className='item__flex' to='/contacts'>
+				<NavLink className='item__flex' to='/portfolio/contacts'>
 					Contacts
 				</NavLink>
 
