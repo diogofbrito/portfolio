@@ -2,9 +2,9 @@
 	"intro": [
 		{
 			"id": 1,
-			"title": "Limit of Disappearance by Bruno Silva",
-			"imageUrl": "./imgs/main/Limit/LO1.jpg",
-			"category": ["Posters", "Visual Identity"]
+			"title": "Esa Cosa Llamada Amor by Plataforma 285",
+			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
+			"category": "Editorial"
 		},
 		{
 			"id": 2,
@@ -20,9 +20,9 @@
 		},
 		{
 			"id": 4,
-			"title": "Esa Cosa Llamada Amor by Plataforma 285",
-			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
-			"category": "Editorial"
+			"title": "Limit of Disappearance by Bruno Silva",
+			"imageUrl": "./imgs/main/Limit/LO1.jpg",
+			"category": ["Posters", "Visual Identity"]
 		},
 		{
 			"id": 5,
