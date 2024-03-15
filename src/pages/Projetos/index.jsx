@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from 'react';
 import { Outlet } from 'react-router';
-import { BtnFilter } from '../../components/BtnFilter/index';
 import { AppContext } from '../../contexts/AppContext';
 
 export function Projects() {
@@ -10,10 +9,5 @@ export function Projects() {
 		fetchProj();
 	}, []);
 
-	return (
-		<div>
-			<BtnFilter />
-			<Outlet />
-		</div>
-	);
+	return <Outlet />;
 }

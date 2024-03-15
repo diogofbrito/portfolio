@@ -1,5 +1,5 @@
 .project__item {
-	height: 500px;
+	height: 600px;
 	border-radius: 20px;
 	overflow: hidden;
 	position: relative;
@@ -11,14 +11,28 @@
 	width: 100%;
 }
 
-.item__gallery img,
-.item__gallery video {
+.item__gallery img{
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
 	object-fit: cover;
+}
+
+
+.item__gallery video {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #dedede;
+}
+
+.item__gallery:nth-child(5) video {
+	background-color: red;
+
 }
 
 .item__id {

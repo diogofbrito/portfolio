@@ -8,7 +8,6 @@ const initialState = {
 	projects: [],
 	about: {},
 	intro: [],
-	isDarkMode: false,
 };
 
 export function AppProvider({ children }) {
@@ -48,10 +47,7 @@ export function AppProvider({ children }) {
 		}
 	}
 
-	function toggleTheme() {
+	
 
-		dispatch({ type: 'TOGGLE_THEME' }); 
-	}
-
-	return <AppContext.Provider value={{ ...state, fetchProj, fetchAbout, toggleTheme }}>{children}</AppContext.Provider>;
+	return <AppContext.Provider value={{ ...state, fetchProj, fetchAbout}}>{children}</AppContext.Provider>;
 }

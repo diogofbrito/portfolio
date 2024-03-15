@@ -1,18 +1,13 @@
 :root {
-	/*! main colors */
-	--black: #131313;
-	--hover: #0000ff;
+	/* Tema claro */
 	--general-background: #f1f1f1;
-	--secundary-background: #dedede;
+	--black: #131313;
+}
 
-	/*! tag colors */
-	--web: #7ceeff;
-	--editorial: #d8baff;
-	--identity: #ffeb3a;
-	--posters: #ff99e2;
-	--video: #ff590c;
-	--exhibition: #ff9999;
-	--direction: #6ddd5e;	
+[data-theme='dark'] {
+	/* Tema escuro */
+	--dark-background: #131313;
+	--white-text: #f1f1f1;
 }
 
 /* reset basics */
@@ -21,7 +16,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-/* 	 border: 1px solid green; 
+	/* 	 border: 1px solid green; 
  */
 }
 
@@ -37,10 +32,9 @@ body {
 	font-weight: 700;
 	font-family: 'Whyte-Light';
 	line-height: 1;
-		background-color: var(--general-background);
+	background-color: var(--general-background);
 	color: var(--black);
 }
-
 
 
 span {
@@ -49,7 +43,7 @@ span {
 }
 
 .container {
-	margin: 6.5rem 30px 30px 
+	margin: 6.5rem 30px 30px;
 }
 
 ul {
@@ -64,15 +58,17 @@ a {
 a:hover,
 button:hover {
 	background-color: var(--black);
-	color: var(--general-background)
+	color: var(--general-background);
 }
 
- a.active,  button.active {
-background-color: var(--black);
-	color: var(--general-background)
+a.active,
+button.active {
+	background-color: var(--black);
+	color: var(--general-background);
 }
 .navbar__item .item__flex:first-child.active {
-    background-color: inherit; 
+	background-color: inherit;
+	color: var(--black)
 }
 
 img {
@@ -86,5 +82,3 @@ button {
 	font: inherit;
 	outline: inherit;
 }
-
-

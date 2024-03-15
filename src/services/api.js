@@ -5,7 +5,7 @@ const api = axios.create({
 });
 
 export async function getProj() {
-	const response = await api.get('/mainProjects.json');
+	const response = await api.get('/mainProjectsData.json');
 
 	/* console.log('PROJ::', response); */
 
@@ -13,7 +13,7 @@ export async function getProj() {
 }
 
 export async function getAbout() {
-	const response = await api.get('/about.json');
+	const response = await api.get('/aboutData.json');
 
 	/* console.log('ABOUT::', response); */
 
@@ -21,7 +21,7 @@ export async function getAbout() {
 }
 
 export async function getIntro() {
-	const response = await api.get('/projectsIntro.json');
+	const response = await api.get('/introProjectsData.json');
 
 	/* console.log('INTRO::', response); */
 

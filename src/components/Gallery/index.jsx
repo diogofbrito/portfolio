@@ -28,7 +28,7 @@ export function Gallery() {
 									<source src={videoUrl} type='video/mp4' />
 								</video>
 							) : (
-								<img src={imageUrl} />
+								<img src={imageUrl} alt={title} loading='lazy'/>
 							)}
 						</div>
 

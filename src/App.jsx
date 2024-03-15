@@ -2,17 +2,16 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { Header } from './components/Header/index';
 import { AppProvider } from './contexts/AppContext';
+import './index.css';
+import './assets/font/stylesheet.css';
 
 function App() {
 	return (
-		<div>
+		
 			<AppProvider>
 				<Header />
-				<div className='main'>
-					<Outlet />
-				</div>
+				<Outlet />
 			</AppProvider>
-		</div>
 	);
 }
 
