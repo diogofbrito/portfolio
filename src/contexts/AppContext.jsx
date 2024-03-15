@@ -49,5 +49,5 @@ export function AppProvider({ children }) {
 
 	
 
-	return <AppContext.Provider value={{ ...state, fetchProj, fetchAbout}}>{children}</AppContext.Provider>;
+	return <AppContext.Provider value={{ ...state, fetchProj, fetchAbout }}>{children}</AppContext.Provider>;
 }

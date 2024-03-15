@@ -7,11 +7,10 @@ import './assets/font/stylesheet.css';
 
 function App() {
 	return (
-		
-			<AppProvider>
-				<Header />
-				<Outlet />
-			</AppProvider>
+		<AppProvider>
+			<Header />
+			<Outlet />
+		</AppProvider>
 	);
 }
 

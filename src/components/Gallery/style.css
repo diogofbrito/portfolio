@@ -34,7 +34,7 @@
 
 .name__proj {
 	font-family: 'DD-Regular';
-	font-size: 4rem;
+	font-size: 5rem;
 	color: white;
 	padding-bottom: 1rem;
 }
@@ -42,6 +42,7 @@
 .name__type {
 	display: flex;
 	gap: 0.5rem;
+	color: var(--text-color-light);
 }
 
 .name__type div {

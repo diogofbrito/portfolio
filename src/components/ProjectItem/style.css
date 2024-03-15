@@ -11,7 +11,7 @@
 	width: 100%;
 }
 
-.item__gallery img{
+.item__gallery img {
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -19,7 +19,6 @@
 	left: 0;
 	object-fit: cover;
 }
-
 
 .item__gallery video {
 	position: absolute;
@@ -32,7 +31,6 @@
 
 .item__gallery:nth-child(5) video {
 	background-color: red;
-
 }
 
 .item__id {
@@ -49,15 +47,17 @@
 	display: flex;
 }
 
-.title {
+.item__id .title {
 	font-size: 3.5rem;
 	font-family: 'DD-Regular';
 	margin-top: 10px;
+	color: var(--text-color-light);
 }
 
 .type {
 	display: flex;
 	gap: 0.5rem;
+	color: var(--text-color-light);
 }
 
 .type div {

@@ -1,29 +1,13 @@
 :root {
-	/* Tema claro */
-	--general-background: #f1f1f1;
-	--black: #131313;
-}
+	--background-color-light: #fff;
+	--background-trans-light: rgba(255, 255, 255, 0.95);
+	--text-color-light: #333;
+	--shadow-light: rgba(0, 0, 0, 0.25);
 
-[data-theme='dark'] {
-	/* Tema escuro */
-	--dark-background: #131313;
-	--white-text: #f1f1f1;
-}
-
-/* reset basics */
-
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	/* 	 border: 1px solid green; 
- */
-}
-
-html {
-	font-size: 16px;
-	line-height: normal;
-	scroll-behavior: smooth !important;
+	--background-color-dark: #333;
+	--background-trans-dark: rgba(51, 51, 51, 0.95);
+	--text-color-dark: #fff;
+	--shadow-dark: rgba(255, 255, 255, 0.25);
 }
 
 body {
@@ -32,14 +16,32 @@ body {
 	font-weight: 700;
 	font-family: 'Whyte-Light';
 	line-height: 1;
-	background-color: var(--general-background);
-	color: var(--black);
+	background-color: var(--background-color-light);
+	color: var(--text-color-light);
+	transition: background-color 0.3s, color 0.3s;
 }
 
+body.dark-mode {
+	background-color: var(--background-color-dark);
+	color: var(--text-color-dark);
+}
 
-span {
-	font-weight: 400;
-	font-size: 0.75em;
+a {
+	text-decoration: none;
+	color: var(--text-color-light);
+	transition: color 0.3s;
+}
+
+.index {
+	background-color: var(--background-color-light);
+}
+
+body.dark-mode .index {
+	background-color: var(--background-trans-dark);
+}
+
+body.dark-mode a {
+	color: var(--text-color-dark);
 }
 
 .container {
@@ -48,27 +50,20 @@ span {
 
 ul {
 	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	color: var(--black);
+	padding: 0;
+	margin: 0;
 }
 
 a:hover,
 button:hover {
-	background-color: var(--black);
-	color: var(--general-background);
+	background-color: var(--text-color-light);
+	color: var(--background-color-light);
 }
 
 a.active,
 button.active {
-	background-color: var(--black);
-	color: var(--general-background);
-}
-.navbar__item .item__flex:first-child.active {
-	background-color: inherit;
-	color: var(--black)
+	background-color: var(--text-color-light);
+	color: var(--background-color-light);
 }
 
 img {

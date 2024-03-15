@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-export const ThemeSwitch = () => {
+export const ToggleSwitch = () => {
 	const [theme, setTheme] = useState('light');
 
 	const toggleTheme = () => {
-		console.log(theme);
 		const newTheme = theme === 'light' ? 'dark' : 'light';
-		console.log('New Theme:', newTheme);
 
 		setTheme(newTheme);
 		localStorage.setItem('theme', newTheme);
@@ -20,8 +18,6 @@ export const ThemeSwitch = () => {
 	}, []);
 
 	useEffect(() => {
-		    console.log('Theme Changed:', theme);
-
 		document.documentElement.setAttribute('data-theme', theme);
 		if (theme === 'dark') {
 			document.body.classList.add('dark-mode');
@@ -30,5 +26,5 @@ export const ThemeSwitch = () => {
 		}
 	}, [theme]);
 
-	return <button onClick={toggleTheme}>{theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}</button>;
+	return <button className='item__flex' onClick={toggleTheme}>{theme === 'light' ? 'Night' : 'Day'}</button>;
 };
