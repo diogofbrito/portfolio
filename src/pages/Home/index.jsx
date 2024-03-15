@@ -12,7 +12,7 @@ export function Home() {
 					<div> Diogo Brito is a graphic designer and creative web developer.</div>
 					<div>
 						
-						<Link className='about__link' to='/portfolio/about'>About</Link>
+						<Link className='about__link' to='/about'>About</Link>
 					</div>
 				</div>
 			</div>

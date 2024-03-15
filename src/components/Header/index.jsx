@@ -7,7 +7,7 @@ import { ToggleSwitch } from '../ThemeSwitch/index';
 
 export function Header() {
 	const location = useLocation();
-	const isProjectsPage = location.pathname.startsWith('/portfolio/projects');
+	const isProjectsPage = location.pathname.startsWith('/projects');
 	const [isIndexOpen, setIsIndexOpen] = useState(false);
 
 	const toggleIndex = () => {
@@ -17,12 +17,12 @@ export function Header() {
 	return (
 		<div className='navbar'>
 			<div className='navbar__item'>
-				<NavLink className='item__flex' to='/portfolio/'>Brito Studio
+				<NavLink className='item__flex' to='/'>Brito Studio
 				</NavLink>
-				<NavLink className='item__flex' to='/portfolio/projects'>
+				<NavLink className='item__flex' to='/projects'>
 					Projects
 				</NavLink>
-				<NavLink className='item__flex' to='/portfolio/about'>
+				<NavLink className='item__flex' to='/about'>
 					About
 				</NavLink>
 				

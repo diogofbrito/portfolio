@@ -5,7 +5,6 @@ export const ToggleSwitch = () => {
 
 	const toggleTheme = () => {
 		const newTheme = theme === 'light' ? 'dark' : 'light';
-
 		setTheme(newTheme);
 		localStorage.setItem('theme', newTheme);
 	};
