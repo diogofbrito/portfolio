@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"title": "Limit of Disappearance by Bruno Silva",
-			"imageUrl": "../imgs/main/EsaCosa/ESA_COSA.gif",
+			"imageUrl": "./imgs/main/Limit/LO1.jpg",
 			"category": ["Posters", "Visual Identity"]
 		},
 		{
@@ -21,7 +21,7 @@
 		{
 			"id": 4,
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
-			"imageUrl": "./imgs/main/EnjoyTWeather/ENJ1.jpg",
+			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
 			"category": "Editorial"
 		},
 		{
@@ -32,10 +32,15 @@
 		},
 		{
 			"id": 6,
-			"title": "Enjoy the Weather by Teresa Silva",
-			"imageUrl": "./imgs/main/EnjoyTWeather/ENJ1.jpg",
-			"category": ["Posters", "Visual Identity"]
+			"title": "Teorias da Inspiração - Filme by David Marques",
+			"videoUrl": "https://vod.api.video/vod/vi1C1Uoxosf1xKorhwaIvx9h/mp4/source.mp4",
+			"category": "Video"
+		},
+		{
+			"id": 7,
+			"title": "Mistério da Cultura by David Marques",
+			"imageUrl": "../imgs/main/MisterioCultura/MisterioDaCultura(2)_mainpage.jpg",
+			"category": "Video"
 		}
 	]
 }
-		
