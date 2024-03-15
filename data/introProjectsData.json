@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"title": "Limit of Disappearance by Bruno Silva",
-			"imageUrl": "./imgs/main/Limit/LO1.jpg",
+			"imageUrl": "../imgs/main/EsaCosa/ESA_COSA.gif",
 			"category": ["Posters", "Visual Identity"]
 		},
 		{
@@ -20,9 +20,9 @@
 		},
 		{
 			"id": 4,
-			"title": "Enjoy the Weather by Teresa Silva",
+			"title": "Esa Cosa Llamada Amor by Plataforma 285",
 			"imageUrl": "./imgs/main/EnjoyTWeather/ENJ1.jpg",
-			"category": ["Posters", "Visual Identity"]
+			"category": "Editorial"
 		},
 		{
 			"id": 5,
