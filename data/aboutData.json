@@ -2,27 +2,13 @@
 	"about": {
 		"id": 1,
 		"bio": "Brito-Studio is a Lisbon-based creative studio specialising in creative web development & design, editorial, art direction and graphic design for commercial and cultural clients alike. Brito collaborate with forward-thinking clients and friends across fashion, graphic design, visual arts and choreographers, as well as being being co-founder member of Stand Project, a collective art exercise.",
-		"education": "2015.2018 - Visual Arts at Faculty of Fine Arts of University of Lisbon, Lisbon<br />2023.2024 - Web Development at ETIC - School of Innovation and Creation Technologies, Lisbon",
-		"skills": [
-			"Graphic Design",
-			"Web Design",
-			"UX/UI",
-			"Web Development",
-			"Art Direction",
-			"Identities",
-			"Editorial",
-			"Video ",
-			"Inker"
+		"education": [
+			"2013-2015 - Product Design at Faculty of Fine Arts of University of Lisbon, Lisbon",
+			"2015-2018 - BA. in Visual Arts at Faculty of Fine Arts of University of Lisbon, Lisbon",
+			"2023-2024 - Web Development at ETIC - School of Innovation and Creation Technologies, Lisbon"
 		],
-		"clients": [
-			"Dino Alves", 
-			"Marques' Almeida", 
-			"Underdogs Gallery", 
-			"NOVOCINE", 
-			"Faculty of Fine Arts of Lisbon", 
-			"Wasted Rita", 
-			"Jonas&Lander"
-		],
+		"skills": ["Graphic Design", "Web Design", "UX/UI", "Web Development", "Art Direction", "Identities", "Editorial", "Video ", "Inker"],
+		"clients": ["Dino Alves", "Marques' Almeida", "Underdogs Gallery", "NOVOCINE", "Faculty of Fine Arts of Lisbon", "Wasted Rita", "Jonas&Lander"],
 		"exhibitions": [
 			"2021. Amadora-3, Gaivotas-6, Lisbon.",
 			"2021. Refresh, Stand Project w/Fábio Colaço, Lisbon.",
