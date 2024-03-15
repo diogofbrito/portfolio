@@ -39,7 +39,7 @@
 		{
 			"id": 7,
 			"title": "Mistério da Cultura by David Marques",
-			"imageUrl": "../imgs/main/MisterioCultura/MisterioDaCultura(2)_mainpage.jpg",
+			"imageUrl": "./imgs/main/MisterioCultura/MisterioDaCultura(2)_mainpage.jpg",
 			"category": "Video"
 		}
 	]
