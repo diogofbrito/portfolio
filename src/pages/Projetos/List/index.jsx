@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AppContext } from '../../../contexts/AppContext';
-import { ProjectItem } from '../../../components/ProjectItem/index';
+import { ProjectItem } from '../../../components/ProjectItem/index.jsx';
 import './style.css';
 
 export function List() {

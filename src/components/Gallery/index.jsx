@@ -22,6 +22,7 @@ export function Gallery() {
 
 				return (
 					<div key={id} className={itemClass}>
+						
 						<div className='item__content'>
 							{videoUrl ? (
 								<video autoPlay muted loop playsInline preload='metadata'>
