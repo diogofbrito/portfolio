@@ -9,10 +9,11 @@ export function Home() {
 			<Gallery />
 			<div className='home__about'>
 				<div className='about__content'>
-					<div> Diogo Brito is a graphic designer and creative web developer.</div>
+					<div> o Diogo Brito is a graphic designer and creative web developer.</div>
 					<div>
-						
-						<Link className='about__link' to='/about'>About</Link>
+						<Link className='about__link' to='/about'>
+							About
+						</Link>
 					</div>
 				</div>
 			</div>
