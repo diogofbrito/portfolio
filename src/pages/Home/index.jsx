@@ -5,18 +5,7 @@ import { Link } from 'react-router-dom';
 
 export function Home() {
 	return (
-		<div className='home'>
-			<Gallery />
-			<div className='home__about'>
-				<div className='about__content'>
-					<div> o00 Diogo Brito is a graphic designer and creative web developer.</div>
-					<div>
-						<Link className='about__link' to='/about'>
-							About
-						</Link>
-					</div>
-				</div>
+		<div className='home container'>
 			</div>
-		</div>
 	);
 }

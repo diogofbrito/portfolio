@@ -4,7 +4,6 @@ import { AppContext } from '../../../contexts/AppContext';
 
 export function Index() {
 	const { projects } = useContext(AppContext);
-	/* console.log(projects); */
 
 	return (
 		<div className='index'>

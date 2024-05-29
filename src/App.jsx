@@ -4,13 +4,16 @@ import { Header } from './components/Header/index';
 import { AppProvider } from './contexts/AppContext';
 import './index.css';
 import './assets/font/stylesheet.css';
+import { FilterProvider } from './contexts/FilterContext';
 
 function App() {
 	return (
-			<AppProvider>
+		<AppProvider>
+			<FilterProvider>
 				<Header />
 				<Outlet />
-			</AppProvider>
+			</FilterProvider>
+		</AppProvider>
 	);
 }
 
