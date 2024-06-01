@@ -8,12 +8,14 @@ import { FilterProvider } from './contexts/FilterContext';
 
 function App() {
 	return (
-		<AppProvider>
-			<FilterProvider>
-				<Header />
-				<Outlet />
-			</FilterProvider>
-		</AppProvider>
+		<main style={{ Height: '100vh',  }}>
+			<AppProvider>
+				<FilterProvider>
+					<Header />
+					<Outlet />
+				</FilterProvider>
+			</AppProvider>
+		</main>
 	);
 }
 
